@@ -12,3 +12,5 @@ The key packages used for this project are:
 2. dplyr - data manipulation and preparation
 3. plotly - prettifying ggplots and making them interactive
 4. leaflet - showing the city-sized craters created by meteor impacts
+
+There are some cool helper functions in global.R that I wrote to create elliptical orbits in ggplot2 given an objects orbital parameters 'a' and 'q'. Server.R contains code for the interactive crater application.
